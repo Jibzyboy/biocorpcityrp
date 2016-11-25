@@ -72,6 +72,28 @@ TEAM_PARMEDIC = DarkRP.createJob("Paramedic", {
 
 --- Citizens 
 
+TEAM_SANTA = DarkRP.createJob("Santa Calws", {
+   color = Color(255, 0, 221, 255),
+   model = {"models/player/christmas/santa.mdl"},
+   description = [[HO HO HO]],
+   weapons = {},
+   command = "santa",
+   max = 1,
+   salary = 125,
+   admin = 0,
+   vote = false,
+   hasLicense = false,
+   candemote = true,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "VIP",
+})
+
+
 TEAM_MECHANIC = DarkRP.createJob("Mechanic", {
    color = Color(255, 0, 221, 255),
    model = {"models/player/alyx.mdl"},
